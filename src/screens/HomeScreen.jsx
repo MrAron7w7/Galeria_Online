@@ -7,6 +7,7 @@ import { Input, Button } from '@rneui/themed'
 import { getImage } from '../api/pexels'
 import ImageList from '../components/ImageList'
 
+
 const HomeScreen = ({ openSearch }) => {
 	const [photos, setPhotos] = useState([])
 	const [searchTerm, setSearchTerm] = useState('')
